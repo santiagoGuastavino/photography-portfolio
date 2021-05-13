@@ -8,4 +8,4 @@ app.set('views','./src/views');
 
 app.use('/', mainRouter);
 
-app.listen(3001, () => console.log('Server running: 3001'));
+app.listen(process.env.PORT || 3001, () => console.log('Server running: 3001'));

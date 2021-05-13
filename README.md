@@ -1,4 +1,9 @@
-<h3>Model View Controller Excercise</h3>
+[My portfolio]()
+---
 
+<h4>Model View Controller Practice</h4>
+
+---
+
+**With Express: Node.js web application framework**  
 *First try at MVC practices*  
-**Using Express: Node.js web application framework**  
