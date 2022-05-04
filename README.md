@@ -1,4 +1,4 @@
-[Portfolio](https://my-portfolio-smg.herokuapp.com/)
+[Portfolio](https://smg-portfolio.herokuapp.com/)
 ---
 
 _First try at Model View Controller best practices_
