@@ -1,10 +1,14 @@
 [Portfolio](https://smg-portfolio.herokuapp.com/)
 ---
 
-_First try at Model View Controller best practices_
+_First try at Model View Controller best practices._
 <h3>For this project I used:</h3>  
 
+- [Node.js](https://nodejs.org/)
+    - [Express.js](https://expressjs.com/)
+    - [ejs template engine](https://ejs.co/)
 - Model View Controller best practices
-- [ejs template engine](https://ejs.co/)
+
+---
 
 This web app was developed following steps provided by the [Coding Academy](https://www.digitalhouse.com/) I was tutored by, and deployed to [Heroku](https://devcenter.heroku.com/start).
