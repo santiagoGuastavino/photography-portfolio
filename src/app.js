@@ -1,11 +1,12 @@
-let express = require ('express');
-let app = express();
-let mainRouter = require('./routes/main');
+const express = require('express')
+const app = express()
+const mainRouter = require('./routes/main')
 
-app.use(express.static('public'));
-app.set('view engine','ejs');
-app.set('views','./src/views');
+app.use(express.static('public'))
+app.set('view engine', 'ejs')
+app.set('views', './src/views')
 
-app.use('/', mainRouter);
+app.use('/', mainRouter)
 
-app.listen(process.env.PORT || 3001, () => console.log('Server running: 3001'));
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => console.log(`Server running @ ${PORT}`))

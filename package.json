@@ -1,10 +1,12 @@
 {
-  "name": "my-portfolio",
+  "name": "photography-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cross-env NODE_ENV=development nodemon",
+    "lint": "eslint . --fix",
+    "start": "cross-env NODE_ENV=production node ./src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +14,13 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
